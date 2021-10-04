@@ -131,3 +131,6 @@ dmypy.json
 # hiden DS_Store file
 .DS_Store
 
+# hiden config.py
+config.py
+
