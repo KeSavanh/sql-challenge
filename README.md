@@ -6,7 +6,7 @@ This project is to demonstrate data engineering and analysis
 
 
 ### Data Modeling
-![Data Modeling]()
+![Data Modeling](EmployeeSQL/Figures/Employee_database_modeling.png)
 
 ### Data Engineering
 
