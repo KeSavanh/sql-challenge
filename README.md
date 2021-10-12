@@ -31,8 +31,7 @@ WHERE EXTRACT (YEAR FROM hire_date) = 1986;
 ![2](EmployeeSQL/Output/Figures/2.png)
 
 3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
-```SELECT d.dept_no AS "department number", d.dept_name AS "department name", 
-		dm.emp_no AS "manager employee number", e.first_name AS "first name", e.last_name AS "last name"
+```SELECT d.dept_no AS "department number", d.dept_name AS "department name", dm.emp_no AS "manager employee number", e.first_name AS "first name", e.last_name AS "last name"
 FROM departments AS d
 JOIN dept_manager AS dm
 ON d.dept_no = dm.dept_no
@@ -70,8 +69,7 @@ WHERE d.dept_name ='Sales';
 ![6](EmployeeSQL/Output/Figures/6.png)
 
 7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
-```SELECT e.emp_no AS "employee number", e.first_name AS "first name", e.last_name AS "last name",
- 		d.dept_name AS "department name"
+```SELECT e.emp_no AS "employee number", e.first_name AS "first name", e.last_name AS "last name", d.dept_name AS "department name"
 FROM employees AS e
 JOIN dept_emp AS de
 ON e.emp_no= de.emp_no
