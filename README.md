@@ -92,7 +92,7 @@ ORDER BY "lastname count" DESC;
 ### Data Validation
 The engine and connection to the database was created using `SQLalchemy` and the tables were imported and manipulated, in order to examine and validate the dataset. The analysis was conducted in `Jupyter notebook` and is linked to [data_validation.ipynb](https://github.com/KeSavanh/sql-challenge/blob/main/EmployeeSQL/data_validation.ipynb)
 #### Histogram to visualize the most common salary ranges for employees
-![Histogram](EmployeeSQL/Output/Figures/salary_range.png)
+![Histogram](EmployeeSQL/Output/Figures/Salary_range.png)
 #### Bar chart of average salary by title
 ![Bar](EmployeeSQL/Output/Figures/title_salary.png)
 ### Epilogue
